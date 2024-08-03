@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Method login Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method selectTenant Passed]]>
+    </line>
+    <line>
+      <![CDATA[Method selectDealerCustomer Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-02T12:32:07 IST" name="Default suite" finished-at="2024-08-02T12:33:23 IST" duration-ms="76368">
+    <groups>
+    </groups>
+    <test started-at="2024-08-02T12:32:07 IST" name="Default test" finished-at="2024-08-02T12:33:23 IST" duration-ms="76368">
+      <class name="test.DemoTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:test.DemoTest@70ed52de]" started-at="2024-08-02T12:32:07 IST" name="SetUp" finished-at="2024-08-02T12:32:24 IST" duration-ms="17345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="login()[pri:1, instance:test.DemoTest@70ed52de]" started-at="2024-08-02T12:32:24 IST" name="login" finished-at="2024-08-02T12:33:03 IST" duration-ms="38292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method login Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="selectTenant()[pri:2, instance:test.DemoTest@70ed52de]" started-at="2024-08-02T12:33:03 IST" name="selectTenant" finished-at="2024-08-02T12:33:06 IST" depends-on-methods="test.DemoTest.login" duration-ms="3332" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method selectTenant Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectTenant -->
+        <test-method signature="selectDealerCustomer()[pri:3, instance:test.DemoTest@70ed52de]" started-at="2024-08-02T12:33:06 IST" name="selectDealerCustomer" finished-at="2024-08-02T12:33:23 IST" depends-on-methods="test.DemoTest.selectTenant" duration-ms="16646" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method selectDealerCustomer Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectDealerCustomer -->
+      </class> <!-- test.DemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
